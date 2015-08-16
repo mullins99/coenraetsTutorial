@@ -1,24 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = http://phonegap.com/ns/1.0
-        xmlns:android   = "http://schemas.android.com/apk/res/android"
-        id          = "com.phonegap.coenraetsEx"
-        versionCode = "10" 
-        version     = "1.0.0" >
-
-    <!-- versionCode is optional and Android only -->
-
-    <name>PhoneGap Example by Coenraets</name>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "edu.sru.cs.employeedirectory"
+        versionCode = "10"
+        version     = "1.1.0">
+ 
+    <name>Employee Directory</name>
+ 
     <description>
-        An example database app. 
+        Coenraets simple employee directory application
     </description>
-
-   <gap:platform name="ios" />
-   <gap:platform name="android" />
-
-    <author href="https://build.phonegap.com" email="paul.mullins@sru.edu">
-        Paul Mullins 
+ 
+    <author href="http://sru.edu" email="paul.mullins@sru.edu">
+        Paul Mullins
     </author>
-
+ 
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+ 
 </widget>
